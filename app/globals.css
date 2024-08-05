@@ -59,6 +59,15 @@
   }
 }
 
+.navbarSection {
+  background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85));
+}
+
+.homeSection {
+  background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url('/hw-header.jpeg');
+  background-size: cover;
+}
+
 @layer base {
   * {
     @apply border-border;
